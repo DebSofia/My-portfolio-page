@@ -90,7 +90,7 @@
 
 .intro-images{
   
-  width: 65%;
+    width: 65%;
     border-radius: 50%;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -111,7 +111,7 @@
 }
 
 .profile-image{
- width: 90%;
+ width: 100%;
  border-radius: 10%;
  box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
@@ -121,21 +121,21 @@
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .intro-about-description-text{
-  text-align: center;
+  
   font-family: ibm plex sans;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height:2rem;
-  margin-top: 10px;
+  
 }
 
 .about-button{
   display: block;
   margin: 0 auto;
-
   padding: 15px;
   background-color: var(--navbar-color);
   font-family: ibm plex sans;
@@ -159,10 +159,10 @@
 .intro-contact-description-text{
   text-align: center;
   font-family: ibm plex sans;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height:2rem;
-  margin-top: 10px;
+  
 }
 
 .contact-button{
@@ -182,4 +182,90 @@
   background-color: #e8e7ec;
   color: #3A3F7A;
   border: 1px solid #3A3F7A;
+}
+
+footer{
+  
+  margin-top: 100px;
+  background-color: var(--footer-color);
+}
+
+.footer-link{
+  text-decoration: none;
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
+  color: var(--footer-text-color);
+  font-size: 12px;
+}
+
+.footer-link:hover{
+  text-decoration:underline;
+}
+
+.footer-text{
+  
+  color: var(--footer-text-color);
+  font-family:ibm plex sans;
+  letter-spacing:2px;
+}
+
+
+@media (max-width: 800px) {
+ .intro-text, .sub-intro-text, .intro-button{
+  margin-top:15px;
+ }
+
+ .intro-images{
+  display: none;
+ }
+
+ .intro-about{
+  margin-top: 10px;
+ }
+
+  .profile-image{
+    display: block;
+    margin: 0 auto;
+  width: 70%;
+  }
+  .intro-about-description-text{
+    margin-top: 10px;
+  }
+
+  .about-button, .intro-contact{
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:426px) {
+  .intro-text, .sub-intro-text, .intro-button{
+    margin-top:0px;
+  }
+
+  .intro-text{
+    text-align: center;
+    font-size:18px;
+  }
+
+  .sub-intro-text{
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  
+  
+  .profile-image{
+    display: none;
+  }
+  .intro-about-description-text,.intro-contact-description-text{
+    text-align: left;
+  }
+
+  .intro-button,.about-button, .contact-button{
+    margin-top: 0px;
+    font-size: 15px;
+    padding: 12px;
+  }
+
 }
