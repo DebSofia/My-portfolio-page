@@ -41,24 +41,17 @@
 .portfolio-nav-link,.contact-nav-link {
   font-family:Ibm plex sans;
   text-decoration: none;
-  border: 2px solid; 
-  border-radius: 5px;
+ 
+ 
   padding: 7px;
   color: var(--navbar-text-color);
 }
 
-.portfolio-nav-link:hover,.contact-nav-link:hover{
-  color: var(--navbar-color);
-  background-color: #e8e7ec;
-}
 
-#contact, #portfolio {
+#contact:hover, #portfolio:hover {
   color:white ;
 }
 
-#contact:hover, #portfolio:hover{
-  color: var(--navbar-color);
-}
 
 .intro {
   padding: 30px;
@@ -95,15 +88,98 @@
   border: 1px solid #3A3F7A;
 }
 
-.intro-portfolio {
-  margin-top: 45px;
-  margin-bottom: 45px;
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
+.intro-images{
+  
+  width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.background-color-card{
+  background-color: var(--navbar-color);
+}
+
+.intro-images-text{
+  font-family: reenie beanie;
+  font-size: 25px;
+  color: var(--navbar-text-color);
+}
+
+.divider{
+  margin-top: 80px;
+}
+
+.profile-image{
+ width: 90%;
+ border-radius: 10%;
+ box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 .intro-about {
+  margin-top: 60px;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.intro-about-description-text{
+  text-align: center;
+  font-family: ibm plex sans;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height:2rem;
+  margin-top: 10px;
+}
+
+.about-button{
+  display: block;
+  margin: 0 auto;
+
+  padding: 15px;
+  background-color: var(--navbar-color);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  border: 1px solid;
+  color: var(--navbar-text-color);
+  border-radius:5px;
+}
+
+.about-button:hover{
+  background-color: #e8e7ec;
+  color: #3A3F7A;
+  border: 1px solid #3A3F7A;
+}
+
+.intro-contact{
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.intro-contact-description-text{
+  text-align: center;
+  font-family: ibm plex sans;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height:2rem;
+  margin-top: 10px;
+}
+
+.contact-button{
+  display: block;
+  margin: 0 auto;
+
+  padding: 15px;
+  background-color: var(--navbar-color);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  border: 1px solid;
+  color: var(--navbar-text-color);
+  border-radius:5px;
+}
+
+.contact-button:hover{
+  background-color: #e8e7ec;
+  color: #3A3F7A;
+  border: 1px solid #3A3F7A;
 }
