@@ -7,7 +7,7 @@
   --navbar-text-color: #FAF7F0;
   --footer-color:#5E617A;
   --footer-text-color: #FAF7F0;
-  --background-color:#D2C6FB;
+  --background-color:#e8e7ec;
   --title-color: #3A2E61
   --text-color:#504B61
   --title: "Merriweather";
@@ -49,7 +49,7 @@
 
 .portfolio-nav-link:hover,.contact-nav-link:hover{
   color: var(--navbar-color);
-  background-color: #D2C6FB;
+  background-color: #e8e7ec;
 }
 
 #contact, #portfolio {
@@ -90,7 +90,7 @@
 }
 
 .intro-button:hover{
-  background-color: #D2C6FB;
+  background-color: #e8e7ec;
   color: #3A3F7A;
   border: 1px solid #3A3F7A;
 }
