@@ -1,9 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+:root{
+  --navbar-color: #3A3F7A;
+  --navbar-text-color: #FAF7F0;
+  --footer-color:#5E617A;
+  --footer-text-color: #FAF7F0;
+  --background-color:#D2C6FB;
+  --title-color: #3A2E61
+  --text-color:#504B61
+  --title: "Merriweather";
+  --general-text: "IBM Plex Sans";
+  
+}
+
+.container-fluid{
+  background-color: var(--background-color);
+}
+
+.navbar-bg{
+  background-color: var(--navbar-color) !important;
+}
+
+.logo{
+  margin-left: 5px;
+  font-family: reenie beanie;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: var(--navbar-text-color)
+}
+
+.link{
+ font-family: IBM Plex Sans;
+ font-size: 16px;
+ letter-spacing:2px;
+ color: var(--navbar-text-color);
+}
+
+.portfolio-nav-link,.contact-nav-link {
+  font-family:Ibm plex sans;
+  text-decoration: none;
+  border: 2px solid; 
+  border-radius: 5px;
+  padding: 7px;
+  color: var(--navbar-text-color);
+}
+
+.portfolio-nav-link:hover,.contact-nav-link:hover{
+  color: var(--navbar-color);
+  background-color: #D2C6FB;
+}
+
+#contact, #portfolio {
+  color:white ;
+}
+
+#contact:hover, #portfolio:hover{
+  color: var(--navbar-color);
+}
+
 .intro {
-  margin-top: 45px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.intro-text{
+  margin: 35px;
+  font-family: Merriweather;
+  letter-spacing: 2px;
+  color: var(--title-color)
+}
+
+.sub-intro-text{
+  font-family: IBM Plex Sans;
+  letter-spacing: 2px;
+  padding:15px;
+}
+
+.intro-button{
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--navbar-color);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  border: 1px solid;
+}
+
+.intro-button:hover{
+  background-color: #D2C6FB;
+  color: #3A3F7A;
+  border: 1px solid #3A3F7A;
 }
 
 .intro-portfolio {

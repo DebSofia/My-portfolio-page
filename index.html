@@ -8,8 +8,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-
+   
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,60 +21,62 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-
+   
+    <link rel="stylesheet" href="index.css" />
     <title>Deborah Silva</title>
   </head>
   <body>
-    <div class="container-xxl">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">DebSofiaDesign</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+      <div class="container-fluid navbar-bg">
+        <a class="navbar-brand logo" href="index.html">DebSofiaDesign</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item link">
+              <a class="nav-link active " aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item link">
+              <a class="nav-link " href="/about/about.html">About me</a>
+            </li>
+            <li class="nav-item link">
+              <a class="nav-link disabled " href="#">Pricing</a>
+            </li>
+          </ul>
+          <a href="/portfolio/portfolio.html" class="portfolio-nav-link"
+            ><span class="navbar-text" id="portfolio"> Portfolio </span> </a
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/contacts/contact.html" class="contact-nav-link"
+            ><span class="navbar-text" id="contact"> Contacts </span></a
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about/about.html">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Pricing</a>
-              </li>
-            </ul>
-            <a href="/portfolio/portfolio.html"
-              ><span class="navbar-text"> Portfolio </span> </a
-            >&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/contacts/contact.html"
-              ><span class="navbar-text"> Contacts </span></a
-            >
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <div class="container-fluid">
+   
       <div class="intro">
-        <h3 class="intro-text">Hello, I' Deborah!</h3>
+        <h3 class="intro-text">Hello, I'm Deborah!</h3>
         <h4 class="sub-intro-text">
-          Frontend Developer and WebDesigner, based in Portugal 🇵🇹
+          Frontend Developer and Web Designer, based in Portugal 🇵🇹
         </h4>
-        <button class="btn btn-dark">Meet my work</button>
+        <button class="btn btn-dark intro-button">Meet my work</button>
       </div>
       <div class="intro-portfolio">
         <div class="card" style="width: 18rem">
           <img class="card-img-top" src="..." alt="Card image cap" />
           <div class="card-body">
-            <p class="card-text">Frontend Development | WebDesgin</p>
+            <p class="card-text">Frontend Development | Web Design</p>
           </div>
         </div>
         <div class="card" style="width: 18rem">
@@ -250,5 +252,6 @@
     </div>
 
     <script src="javascript/index.js"></script>
+    <script src="https://kit.fontawesome.com/55348e29e2.js" crossorigin="anonymous"></script>
   </body>
 </html>
