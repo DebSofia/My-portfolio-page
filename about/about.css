@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 
-:root{
-  --navbar-color: #3A3F7A;
-  --navbar-text-color:#FAF7F0;
-  --footer-color:#5E617A;
-  --footer-text-color:#FAF7F0;
-  --background-color:#e8e7ec;
-  --title-color:#3A2E61
-  --text-color:#504B61
-  --ibm:"IBM Plex Sans";
-  
+:root {
+  --navbar-color: #3a3f7a;
+  --navbar-text-color: #faf7f0;
+  --footer-color: #5e617a;
+  --footer-text-color: #faf7f0;
+  --background-color: #e8e7ec;
+  --title-color: #3a2e61;
+  --text-color: #504b61;
+  --ibm: "IBM Plex Sans";
 }
 
-.navbar-bg{
+.navbar-bg {
   background-color: var(--navbar-color) !important;
 }
 
-.logo{
+.logo {
   margin-left: 5px;
   font-family: reenie beanie;
   font-size: 25px;
   letter-spacing: 2px;
-  color: var(--navbar-text-color)
+  color: var(--navbar-text-color);
 }
 
-.link{
- font-family: IBM Plex Sans;
- font-size: 16px;
- letter-spacing:2px;
- color: var(--navbar-text-color);
+.link {
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: var(--navbar-text-color);
 }
 
-.portfolio-nav-link,.contact-nav-link {
-  font-family:Ibm plex sans;
+.portfolio-nav-link,
+.contact-nav-link {
+  font-family: Ibm plex sans;
   text-decoration: none;
- 
- 
+
   padding: 7px;
   color: var(--navbar-text-color);
 }
 
-#contact:hover, #portfolio:hover {
-  color:white ;
+#contact:hover,
+#portfolio:hover {
+  color: white;
 }
 
-.page-display{
+.page-display {
   background-color: var(--background-color);
 }
 
-.quote-section{
+.quote-section {
   display: flex;
   justify-content: center;
 }
 
-.quote-text{
+.quote-text {
   margin-top: 35px;
   margin-bottom: 35px;
   padding: 35px;
@@ -67,26 +67,26 @@
   font-size: 30px;
 }
 
-.profile-image{
- box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
- width: 85%;
- margin-bottom: 35px;
+.profile-image {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 85%;
+  margin-bottom: 35px;
 }
 
-.about-me-text-intro{
+.about-me-text-intro {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
 }
 
-.text{
-font-family: IBM Plex Sans;
-line-height: 2em;
-font-size: 20px;
-letter-spacing: 1px;  
+.text {
+  font-family: IBM Plex Sans;
+  line-height: 2em;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
-.contact-me-button{
+.contact-me-button {
   margin-top: 20px;
   padding: 15px;
   background-color: var(--navbar-color);
@@ -95,43 +95,41 @@ letter-spacing: 1px;
   border: 1px solid;
 }
 
-.contact-me-button:hover{
-   background-color: #e8e7ec;
-  color: #3A3F7A;
-  border: 1px solid #3A3F7A;
+.contact-me-button:hover {
+  background-color: #e8e7ec;
+  color: #3a3f7a;
+  border: 1px solid #3a3f7a;
 }
 
-.early-photo{
- margin-top: 35px; 
- box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  
+.early-photo {
+  margin-top: 35px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-
-.academic-photo{
-   margin-top: 35px; 
+.academic-photo {
+  margin-top: 35px;
   width: 88%;
- box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.now-photo{
-   margin-top: 35px; 
+.now-photo {
+  margin-top: 35px;
   width: 94%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.CTA-container{
+.CTA-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid #FAF7F0;
+  border: 5px solid #faf7f0;
   border-radius: 6px;
   padding: 45px;
   background-color: var(--navbar-color);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.cta-text{
+.cta-text {
   text-align: center;
   line-height: 2em;
   color: var(--navbar-text-color);
@@ -139,8 +137,8 @@ letter-spacing: 1px;
   letter-spacing: 2px;
 }
 
-.CTA-button{
-  display: block;  
+.CTA-button {
+  display: block;
   margin: 0 auto;
   margin-top: 35px;
   padding: 15px;
@@ -148,15 +146,15 @@ letter-spacing: 1px;
   font-family: ibm plex sans;
   font-size: 18px;
   border: 1px solid;
-  color: #3A3F7A;
+  color: #3a3f7a;
   font-weight: bold;
 }
 
-.CTA-button:hover{
- background-color: var(--navbar-color);
+.CTA-button:hover {
+  background-color: var(--navbar-color);
   color: var(--navbar-text-color);
   font-weight: bold;
-  border: 1px solid #FAF7F0;
+  border: 1px solid #faf7f0;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -165,7 +163,7 @@ footer {
   background-color: var(--footer-color);
 }
 
-.footer-link{
+.footer-link {
   text-decoration: none;
   font-family: ibm plex sans;
   letter-spacing: 2px;
@@ -173,45 +171,43 @@ footer {
   font-size: 12px;
 }
 
-.footer-link:hover{
-  text-decoration:underline;
+.footer-link:hover {
+  text-decoration: underline;
 }
 
-.footer-text{
-  
+.footer-text {
   color: var(--footer-text-color);
-  font-family:ibm plex sans;
-  letter-spacing:2px;
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
 }
 
-@media (max-width:1400px) {
-  .text{
+@media (max-width: 1400px) {
+  .text {
     line-height: normal;
   }
-.now-photo{
-  margin-top: 90px;
-}
+  .now-photo {
+    margin-top: 90px;
+  }
 }
 
-@media (max-width:900px) {
-  .profile-image, .early-photo, .academic-photo, .now-photo{
+@media (max-width: 900px) {
+  .profile-image,
+  .early-photo,
+  .academic-photo,
+  .now-photo {
     margin: 0 auto;
     width: 60%;
     margin-bottom: 25px;
   }
 }
 
-@media (max-width:768px) {
-  .quote-text{
+@media (max-width: 768px) {
+  .quote-text {
     font-size: 18px;
   }
 
-  .text{
+  .text {
     font-size: 13px;
     line-height: 2em;
   }
 }
-
-
-
-
