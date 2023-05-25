@@ -211,3 +211,7 @@ footer {
     line-height: 2em;
   }
 }
+
+.link-button {
+  text-decoration: none;
+}
