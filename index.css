@@ -41,8 +41,6 @@
 .portfolio-nav-link,.contact-nav-link {
   font-family:Ibm plex sans;
   text-decoration: none;
- 
- 
   padding: 7px;
   color: var(--navbar-text-color);
 }

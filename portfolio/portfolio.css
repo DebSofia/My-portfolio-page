@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+:root{
+  --navbar-color: #3A3F7A;
+  --navbar-text-color: #FAF7F0;
+  --footer-color:#5E617A;
+  --footer-text-color: #FAF7F0;
+  --background-color:#e8e7ec;
+  --title-color: #3A2E61
+  --text-color:#504B61
+  --title: "Merriweather";
+  --general-text: "IBM Plex Sans";
+  
+}
+
+.navbar-bg{
+  background-color: var(--navbar-color) !important;
+}
+
+.logo{
+  margin-left: 5px;
+  font-family: reenie beanie;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: var(--navbar-text-color)
+}
+
+.link{
+ font-family: IBM Plex Sans;
+ font-size: 16px;
+ letter-spacing:2px;
+ color: var(--navbar-text-color);
+}
+
+.portfolio-nav-link,.contact-nav-link {
+  font-family:Ibm plex sans;
+  text-decoration: none;
+ 
+ 
+  padding: 7px;
+  color: var(--navbar-text-color);
+}
+
+#contact:hover, #portfolio:hover {
+  color:white ;
+}
