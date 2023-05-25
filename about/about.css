@@ -4,14 +4,13 @@
 
 :root{
   --navbar-color: #3A3F7A;
-  --navbar-text-color: #FAF7F0;
+  --navbar-text-color:#FAF7F0;
   --footer-color:#5E617A;
-  --footer-text-color: #FAF7F0;
+  --footer-text-color:#FAF7F0;
   --background-color:#e8e7ec;
-  --title-color: #3A2E61
+  --title-color:#3A2E61
   --text-color:#504B61
-  --title: "Merriweather";
-  --general-text: "IBM Plex Sans";
+  --ibm:"IBM Plex Sans";
   
 }
 
@@ -46,3 +45,173 @@
 #contact:hover, #portfolio:hover {
   color:white ;
 }
+
+.page-display{
+  background-color: var(--background-color);
+}
+
+.quote-section{
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 35px;
+  text-align: center;
+  font-family: merriweather;
+  letter-spacing: 2px;
+  line-height: 2em;
+  color: var(--title-color);
+  font-size: 30px;
+}
+
+.profile-image{
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ width: 85%;
+ margin-bottom: 35px;
+}
+
+.about-me-text-intro{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.text{
+font-family: IBM Plex Sans;
+line-height: 2em;
+font-size: 20px;
+letter-spacing: 1px;  
+}
+
+.contact-me-button{
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--navbar-color);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  border: 1px solid;
+}
+
+.contact-me-button:hover{
+   background-color: #e8e7ec;
+  color: #3A3F7A;
+  border: 1px solid #3A3F7A;
+}
+
+.early-photo{
+ margin-top: 35px; 
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+}
+
+
+.academic-photo{
+   margin-top: 35px; 
+  width: 88%;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.now-photo{
+   margin-top: 35px; 
+  width: 94%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.CTA-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #FAF7F0;
+  border-radius: 6px;
+  padding: 45px;
+  background-color: var(--navbar-color);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.cta-text{
+  text-align: center;
+  line-height: 2em;
+  color: var(--navbar-text-color);
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
+}
+
+.CTA-button{
+  display: block;  
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 15px;
+  background-color: var(--background-color);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  border: 1px solid;
+  color: #3A3F7A;
+  font-weight: bold;
+}
+
+.CTA-button:hover{
+ background-color: var(--navbar-color);
+  color: var(--navbar-text-color);
+  font-weight: bold;
+  border: 1px solid #FAF7F0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: var(--footer-color);
+}
+
+.footer-link{
+  text-decoration: none;
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
+  color: var(--footer-text-color);
+  font-size: 12px;
+}
+
+.footer-link:hover{
+  text-decoration:underline;
+}
+
+.footer-text{
+  
+  color: var(--footer-text-color);
+  font-family:ibm plex sans;
+  letter-spacing:2px;
+}
+
+@media (max-width:1400px) {
+  .text{
+    line-height: normal;
+  }
+.now-photo{
+  margin-top: 90px;
+}
+}
+
+@media (max-width:900px) {
+  .profile-image, .early-photo, .academic-photo, .now-photo{
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width:768px) {
+  .quote-text{
+    font-size: 18px;
+  }
+
+  .text{
+    font-size: 13px;
+    line-height: 2em;
+  }
+}
+
+
+
+

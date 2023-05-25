@@ -10,8 +10,7 @@
   --background-color:#e8e7ec;
   --title-color: #3A2E61
   --text-color:#504B61
-  --title: "Merriweather";
-  --general-text: "IBM Plex Sans";
+  --ibm: "IBM Plex Sans";
   
 }
 
@@ -251,8 +250,6 @@ footer{
     text-align: center;
   }
 
-  
-  
   .profile-image{
     display: none;
   }
