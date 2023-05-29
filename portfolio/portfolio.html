@@ -201,27 +201,30 @@
             Photography as a hobby
             <span><i class="fa-solid fa-camera"></i></span>
           </h2>
-          <div class="container gallery-container">
-            <div class="slider-wrapper">
-              <div class="slider">
-                <img id="slide-1" src="/media/1.jpg" class="img-fluid" alt="" />
-                <img id="slide-2" src="/media/2.jpg" class="img-fluid" alt="" />
-                <img id="slide-3" src="/media/3.jpg" class="img-fluid" />
-                <img id="slide-4" src="/media/4.jpg" class="img-fluid" />
-                <img id="slide-5" src="/media/5.jpg" class="img-fluid" />
-                <img id="slide-6" src="/media/6.jpg" class="img-fluid" />
-                <img id="slide-7" src="/media/7.jpg" class="img-fluid" />
-              </div>
-              <div class="slider-nav">
-                <a href="#slide-1"></a>
-                <a href="#slide-2"></a>
-                <a href="#slide-3"></a>
-                <a href="#slide-4"></a>
-                <a href="#slide-5"></a>
-                <a href="#slide-6"></a>
-                <a href="#slide-7"></a>
-              </div>
-            </div>
+          <div class="slider">
+            <img
+              id="img-1"
+              src="/media/1.jpg"
+              alt="Image 1"
+              class="img-fluid"
+            />
+            <img
+              id="img-2"
+              src="/media/3.jpg"
+              alt="Image 2"
+              class="img-fluid"
+            />
+            <img
+              id="img-3"
+              src="/media/4.jpg"
+              alt="Image 3"
+              class="img-fluid"
+            />
+          </div>
+          <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
           </div>
         </div>
       </div>
@@ -235,7 +238,7 @@
             </span>
           </h5>
           <a href="/contacts/contact.html" class="link-button">
-            <button class="btn btn-dark CTA-button">Portfolio</button></a
+            <button class="btn btn-dark CTA-button">Contact me</button></a
           >
         </div>
       </div>

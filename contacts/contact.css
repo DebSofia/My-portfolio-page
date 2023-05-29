@@ -46,3 +46,31 @@
 #contact:hover, #portfolio:hover {
   color:white ;
 }
+
+
+
+
+
+footer {
+  margin-top: 100px;
+  background-color: var(--footer-color);
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
+  color: var(--footer-text-color);
+  font-size: 12px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+  font-family: ibm plex sans;
+  letter-spacing: 2px;
+}
+

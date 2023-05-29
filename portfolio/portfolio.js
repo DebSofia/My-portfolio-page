@@ -1,22 +1,16 @@
-/*const images = [
-  "./../media/1.jpg",
-  "./../media/2.jpg",
-  "./../media/3.jpg",
-  "./../media/4.jpg",
-  "./../media/5.jpg",
-  "./../media/6.jpg",
-  "./../media/7.jpg",
-];
-
-counter = 0;
-
-setInterval(() => {
-  const image = images[counter];
-  document.querySelector(
-    "#gallery"
-  ).innerHTML = `<div><img class="gallery-image" src="${image}"/></div>`;
-  counter += 1;
-  if (counter == images.length) {
-    counter = 0;
+var imgs = document.querySelectorAll(".slider img");
+var dots = document.querySelectorAll(".dot");
+var currentImg = 0; // index of the first image
+const interval = 3000; // duration(speed) of the slide
+function changeSlide(n) {
+  for (var i = 0; i < imgs.length; i++) {
+    // reset
+    imgs[i].style.opacity = 0;
+    dots[i].className = dots[i].className.replace(" active", "");
   }
-}, 5000);*/
+
+  currentImg = n;
+
+  imgs[currentImg].style.opacity = 1;
+  dots[currentImg].className += " active";
+}
