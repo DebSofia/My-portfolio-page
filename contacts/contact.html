@@ -16,6 +16,15 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("gxDNn80KfbfmSe2PO");
+      })();
+    </script>
     <link rel="stylesheet" href="contact.css" />
     <title>Contact me | Deborah Silva</title>
   </head>
@@ -58,17 +67,60 @@
       </div>
     </nav>
     <div class="container">
-      <div class="contact-intro-section">
-        <div class="contact-intro">
-          <h1 class="contact-title">
-            Feel free to contact-me by submitting the form below
-          </h1>
-
-          <h4 class="contact-text">
-            If you want to know more about my services or get a quote for your
-            project / business, please fill the form bellow with a summary of
-            your idea.
-          </h4>
+      <div class="container-form border mt-5 bg-light form-display">
+        <div class="row">
+          <div class="col-md-6 p-5 text-white form-text-area">
+            <h2 class="title">Hello!</h2>
+            <h4 class="text">
+              If you want to know more about my services or get a quote for your
+              project / business, please fill the form bellow with a summary of
+              your idea.
+            </h4>
+          </div>
+          <div class="col-md-6 py-3 form-info-area">
+            <h2 class="contact-form-title">Contact form</h2>
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="e-mail">E-mail</h5>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your e-mail"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="contact">Mobile number</h5>
+              <input
+                type="text"
+                class="form-control"
+                id="contact-number"
+                placeholder="Your mobile number"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea
+                id="message"
+                rows="3"
+                class="form-control text-area"
+              ></textarea>
+            </div>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="button" id="button-submit">
+              Send message
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -185,7 +237,7 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    <script src="javascript/contact.js"></script>
+    <script src="/contacts/contact.js"></script>
     <script
       src="https://kit.fontawesome.com/55348e29e2.js"
       crossorigin="anonymous"
@@ -194,6 +246,12 @@
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
   </body>
 </html>
